@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         setSupportActionBar(binding.toolBar);
-        getSupportActionBar().setTitle("Transactions");
+        getSupportActionBar().setTitle("Операции");
 
 
         Constants.setCategories();
@@ -99,9 +99,9 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.top_menu,menu);
-        return super.onCreateOptionsMenu(menu);
-    }
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        getMenuInflater().inflate(R.menu.top_menu,menu);
+//        return super.onCreateOptionsMenu(menu);
+//    }
 }

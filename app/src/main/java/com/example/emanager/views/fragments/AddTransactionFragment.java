@@ -118,11 +118,9 @@ public class AddTransactionFragment extends BottomSheetDialogFragment {
             accountsDialog.setView(dialogBinding.getRoot());
 
             ArrayList<Account> accounts = new ArrayList<>();
-            accounts.add(new Account(0, "Cash"));
-            accounts.add(new Account(0, "Bank"));
-            accounts.add(new Account(0, "PayTM"));
-            accounts.add(new Account(0, "EasyPaisa"));
-            accounts.add(new Account(0, "Other"));
+            accounts.add(new Account(0, "Наличные"));
+            accounts.add(new Account(0, "Безналичные"));
+            accounts.add(new Account(0, "Другое"));
 
             AccountsAdapter adapter = new AccountsAdapter(getContext(), accounts, new AccountsAdapter.AccountsClickListener() {
                 @Override

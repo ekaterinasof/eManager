@@ -4,10 +4,10 @@
 
     <item
         android:icon="@drawable/ic_search"
-        android:title="Search"
+        android:title="Поиск"
         app:showAsAction="always" />
     <item
         android:icon="@drawable/ic_star"
-        android:title="Favorties"
+        android:title="Избранные"
         app:showAsAction="always" />
 </menu>

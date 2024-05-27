@@ -108,10 +108,10 @@ public class StatsFragment extends Fragment {
         binding.tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
-                if(tab.getText().equals("Monthly")) {
+                if(tab.getText().equals("За месяц")) {
                     Constants.SELECTED_TAB_STATS = 1;
                     updateDate();
-                } else if(tab.getText().equals("Daily")) {
+                } else if(tab.getText().equals("За день")) {
                     Constants.SELECTED_TAB_STATS = 0;
                     updateDate();
                 }

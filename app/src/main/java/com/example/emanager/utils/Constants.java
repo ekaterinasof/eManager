@@ -6,8 +6,8 @@ import com.example.emanager.models.Category;
 import java.util.ArrayList;
 
 public class Constants {
-    public static String INCOME = "INCOME";
-    public static String EXPENSE = "EXPENSE";
+    public static String INCOME = "Доходы";
+    public static String EXPENSE = "Расходы";
 
     public static ArrayList<Category> categories;
 
@@ -23,12 +23,12 @@ public class Constants {
 
     public static void setCategories() {
         categories = new ArrayList<>();
-        categories.add(new Category("Salary", R.drawable.ic_salary, R.color.category1));
-        categories.add(new Category("Business", R.drawable.ic_business, R.color.category2));
-        categories.add(new Category("Investment", R.drawable.ic_investment, R.color.category3));
-        categories.add(new Category("Loan", R.drawable.ic_loan, R.color.category4));
-        categories.add(new Category("Rent", R.drawable.ic_rent, R.color.category5));
-        categories.add(new Category("Other", R.drawable.ic_other, R.color.category6));
+        categories.add(new Category("Зарплата", R.drawable.ic_salary, R.color.category1));
+        categories.add(new Category("Бизнес", R.drawable.ic_business, R.color.category2));
+        categories.add(new Category("Инвестиции", R.drawable.ic_investment, R.color.category3));
+        categories.add(new Category("Кредит", R.drawable.ic_loan, R.color.category4));
+        categories.add(new Category("Аренда", R.drawable.ic_rent, R.color.category5));
+        categories.add(new Category("Другое", R.drawable.ic_other, R.color.category6));
     }
 
     public static Category getCategoryDetails(String categoryName) {
